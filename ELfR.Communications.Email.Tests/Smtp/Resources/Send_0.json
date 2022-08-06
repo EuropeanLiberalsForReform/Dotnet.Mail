@@ -1,0 +1,11 @@
+{
+  "recipient": {
+    "address": "johndoe@test.test",
+    "name": "John Doe"
+  },
+  "emailMessage": {
+    "subject": "Test E-mail 1",
+    "body": "<p><i>This is a first test e-mail.</i></p>",
+    "isHtml": true
+  }
+}
