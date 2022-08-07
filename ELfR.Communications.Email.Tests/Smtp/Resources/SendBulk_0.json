@@ -1,0 +1,17 @@
+{
+  "emailMessage": {
+    "subject": "Test Bulk 0",
+    "body": "<p><i>Test bulk e-mail message.</i></p>",
+    "isHtml": true
+  },
+  "recipients": [
+    {
+      "address": "janedoe@test.test",
+      "name": "Jane Doe"
+    },
+    {
+      "address": "johndoe@test.test",
+      "name": "John Doe"
+    }
+  ]
+}

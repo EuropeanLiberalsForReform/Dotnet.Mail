@@ -1,4 +1,4 @@
 ﻿namespace ELfR.Communications.Email.Tests.Smtp
 {
-    internal record SmtpTestBatch(IReadOnlyList<SmtpTestItem> Items);
+    internal record SmtpTestBatch(IReadOnlySet<EmailIdentity> Recipients, EmailMessage EmailMessage);
 }

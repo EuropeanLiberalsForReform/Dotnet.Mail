@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System.Net;
 using System.Net.Mail;
+using System.Text.Json;
 
 namespace ELfR.Communications.Email.Configuration
 {
