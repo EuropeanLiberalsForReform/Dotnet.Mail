@@ -8,14 +8,14 @@
 		<Company>European Liberals for Reform</Company>
 		<Product>European Liberals for Reform communications</Product>
 		<Copyright>© 2022 ELfR and contributors</Copyright>
-		<Description>Library for ELfR e-mails</Description>
+		<Description>Library for ELfR communication templates</Description>
 		<PackageProjectUrl>https://github.com/EuropeanLiberalsForReform/Dotnet.Mail</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/EuropeanLiberalsForReform/Dotnet.Mail.git</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-		<Version>0.1.2</Version>
+		<Version>0.1.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup Label="Documentation">
@@ -26,9 +26,8 @@
 	</ItemGroup>
 
 	<ItemGroup Label="Package References">
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
 	</ItemGroup>
 
 	<ItemGroup Label="Resources">

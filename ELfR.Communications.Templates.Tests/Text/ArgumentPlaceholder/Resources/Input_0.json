@@ -1,0 +1,8 @@
+{
+  "arguments": {
+    "arg0": "foo",
+    "arg1": "bar"
+  },
+  "subject": "E-mail {{arg0}}",
+  "body": "This is a first {{arg0}} test.\r\nThis is a second {{arg1}} test."
+}
